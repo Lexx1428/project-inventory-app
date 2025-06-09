@@ -1,6 +1,5 @@
-import { GalleryVerticalEnd } from "lucide-react"
-import { LoginForm } from "@/components/login-form"
+import { redirect } from 'next/navigation'
 
-export default function LoginPage() {
-  return (<h1>Homepage</h1>);
+export default function Login() {
+  return (redirect("/login"))
 }
